@@ -11,6 +11,8 @@
 		9324F4772BB4FE3800187A57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9324F4762BB4FE3800187A57 /* ContentView.swift */; };
 		9324F4792BB4FE3900187A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9324F4782BB4FE3900187A57 /* Assets.xcassets */; };
 		9324F47C2BB4FE3900187A57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9324F47B2BB4FE3900187A57 /* Preview Assets.xcassets */; };
+		939B21A62BBB901C00895093 /* LookAround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B21A52BBB901C00895093 /* LookAround.swift */; };
+		939B21A82BBB925D00895093 /* myFavoriteLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939B21A72BBB925D00895093 /* myFavoriteLocations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9324F4762BB4FE3800187A57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9324F4782BB4FE3900187A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9324F47B2BB4FE3900187A57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		939B21A52BBB901C00895093 /* LookAround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookAround.swift; sourceTree = "<group>"; };
+		939B21A72BBB925D00895093 /* myFavoriteLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFavoriteLocations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		9324F4732BB4FE3800187A57 /* DoctorMaps */ = {
 			isa = PBXGroup;
 			children = (
+				939B21A52BBB901C00895093 /* LookAround.swift */,
 				9324F4742BB4FE3800187A57 /* DoctorMapsApp.swift */,
 				9324F4762BB4FE3800187A57 /* ContentView.swift */,
+				939B21A72BBB925D00895093 /* myFavoriteLocations.swift */,
 				9324F4782BB4FE3900187A57 /* Assets.xcassets */,
 				9324F47A2BB4FE3900187A57 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939B21A62BBB901C00895093 /* LookAround.swift in Sources */,
 				9324F4772BB4FE3800187A57 /* ContentView.swift in Sources */,
+				939B21A82BBB925D00895093 /* myFavoriteLocations.swift in Sources */,
 				9324F4752BB4FE3800187A57 /* DoctorMapsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
